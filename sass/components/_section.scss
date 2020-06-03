@@ -1,0 +1,19 @@
+.section__book {
+    background-color: rgba(green, .80);
+    padding: 15rem 15rem;
+}
+
+.book {
+    background-image: linear-gradient(105deg, rgba(white, .8)0%,
+     white 50%, 
+     red 50%),
+      url(../image/back2.jpg);
+    height: 50rem;
+    
+
+    &__form {
+        width: 50%;
+        padding: 6rem;
+    }
+
+}

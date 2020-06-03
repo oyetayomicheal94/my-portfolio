@@ -1,0 +1,17 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "\"what i like doing\"",
+  "main": "index.js",
+  "scripts": {
+    "compile:sasss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "360Dev",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
+}
